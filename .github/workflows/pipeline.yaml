@@ -25,7 +25,7 @@ jobs:
       - name: Running backend and testing
         run: |
           cd backend
-          node index.js &
+          node server.js &
           sleep 3
           curl http://localhost:5000
 
