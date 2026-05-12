@@ -29,5 +29,5 @@ app.get("/api/students", async (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Server running on port change-2 ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
